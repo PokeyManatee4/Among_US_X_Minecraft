@@ -1,2 +1,2 @@
-var audio = new Audio('404.m4a');
-audio.play();
+var bMusic = new Audio('404.m4a')
+	bMusic.play()
