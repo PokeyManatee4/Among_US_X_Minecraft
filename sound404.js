@@ -1,2 +1,6 @@
-var bMusic = new Audio('404.m4a')
-	bMusic.play()
+var myMusic;
+
+function StartMusic() {
+  myMusic = new sound("gametheme.m4a");
+  myMusic.play();
+}
